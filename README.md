@@ -2,6 +2,7 @@ node-winresourcer
 ==============
 
 Node module to edit windows executable resources (icons, ...)
+
 This is a simple node wrapper of [Anolis Resourcer](http://www.anol.is/resourcer/)
 
 
@@ -130,6 +131,7 @@ When adding or updating a resource the data is retrieved from this file. When ex
 ### Contribute
 
 Feel free to [report issues](https://github.com/felicienfrancois/node-winresourcer/issues)
+
 [Pull requests](https://github.com/felicienfrancois/node-winresourcer/pulls) are welcome
 
 
