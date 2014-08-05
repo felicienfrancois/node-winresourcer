@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var r = require('./Resourcer.js');
 
-var argumentsRegex = /$[-]*([\w]+)[=:]{1}["']?(.*)["']?^/;
+var argumentsRegex = /$[-]*([\w]+)[=:]{1}(.*)^/;
 var options = {};
 for (var i=2; i<process.argv.length; i++) {
 	var match = argumentsRegex.exec(process.argv[i]);
