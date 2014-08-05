@@ -28,7 +28,7 @@ npm install -g winresourcer
 ```
 
 ```shell
-winresourcer --operation=Update --exeFile=path/to/your/file.exe --resourceType=Icongroup --resourceName:IDR_MAINFRAME --lang: 1033 --resourceFile:path/to/your/resource.ico
+winresourcer --operation=Update --exeFile=path/to/your/file.exe --resourceType=Icongroup --resourceName:SOME_RESOURCE --lang: 1033 --resourceFile:path/to/your/resource.ico
 ```
 
 ##### Node JS
@@ -42,7 +42,7 @@ require("winresourcer")({
 			operation: "Update", // one of Add, Update, Extract or Delete
 			exeFile: "path/to/your/file.exe",
 			resourceType: "Icongroup",
-			resourceName: "IDR_MAINFRAME",
+			resourceName: "SOME_RESOURCE",
 			lang: 1033, // Required, except when updating or deleting 
 			resourceFile: "path/to/your/resource.ico" // Required, except when deleting
 		}, function(error) {
@@ -66,7 +66,7 @@ grunt.initConfig({
 			operation: "Update", // one of Add, Update, Extract or Delete
 			exeFile: "path/to/your/file.exe",
 			resourceType: "Icongroup",
-			resourceName: "IDR_MAINFRAME",
+			resourceName: "SOME_RESOURCE",
 			lang: 1033, // Required, except when updating or deleting 
 			resourceFile: "path/to/your/resource.ico" // Required, except when deleting
 		}
