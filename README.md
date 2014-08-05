@@ -45,7 +45,9 @@ require("resourcer")({
 			resourceName: "IDR_MAINFRAME",
 			lang: 1033, // Required, except when updating or deleting 
 			resourceFile: "path/to/your/resource.ico" // Required, except when deleting
-		}, callback);
+		}, function(error) {
+			// callback
+		});
 ```
 
 ##### Grunt
