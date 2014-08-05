@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var r = require('./Resourcer.js');
+var r = require('./WinResourcer.js');
 
 var argumentsRegex = /^[-]*([\w]+)[=:]{1}(.*)$/;
 var options = {};

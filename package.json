@@ -1,15 +1,15 @@
 {
-  "name": "resourcer",
+  "name": "winresourcer",
   "version": "0.9.0",
   "description": "Node wrapper of Anolis Resourcer (windows executable resource editor)",
-  "main": "lib/Resourcer.js",
+  "main": "lib/WinResourcer.js",
   "bin": {
-    "resourcer": "./lib/Resourcer"
+    "winresourcer": "./lib/WinResourcer"
   },
-  "homepage": "https://github.com/felicienfrancois/node-resourcer",
+  "homepage": "https://github.com/felicienfrancois/node-winresourcer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/felicienfrancois/node-resourcer.git"
+    "url": "https://github.com/felicienfrancois/node-winresourcer.git"
   },
   "author": {
     "name": "Felicien Francois",
@@ -17,12 +17,12 @@
     "url": "http://tweakstyle.com"
   },
   "bugs": {
-    "url": "https://github.com/felicienfrancois/node-resourcer/issues"
+    "url": "https://github.com/felicienfrancois/node-winresourcer/issues"
   },
   "licenses": [
     {
       "type": "Freeware",
-      "url": "https://github.com/felicienfrancois/node-resourcer/blob/master/LICENSE"
+      "url": "https://github.com/felicienfrancois/node-winresourcer/blob/master/LICENSE"
     }
   ],
   "engines": {

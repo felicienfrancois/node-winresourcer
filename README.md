@@ -1,4 +1,4 @@
-node-resourcer
+node-winresourcer
 ==============
 
 Node module to edit windows executable resources (icons, ...)
@@ -24,21 +24,21 @@ This is a simple node wrapper of [Anolis Resourcer](http://www.anol.is/resourcer
 ##### Command line
 
 ```shell
-npm install -g resourcer
+npm install -g winresourcer
 ```
 
 ```shell
-resourcer --operation=Update --exeFile=path/to/your/file.exe --resourceType=Icongroup --resourceName:IDR_MAINFRAME --lang: 1033 --resourceFile:path/to/your/resource.ico
+winresourcer --operation=Update --exeFile=path/to/your/file.exe --resourceType=Icongroup --resourceName:IDR_MAINFRAME --lang: 1033 --resourceFile:path/to/your/resource.ico
 ```
 
 ##### Node JS
 
 ```shell
-npm install resourcer
+npm install winresourcer
 ```
 
 ```javascript
-require("resourcer")({
+require("winresourcer")({
 			operation: "Update", // one of Add, Update, Extract or Delete
 			exeFile: "path/to/your/file.exe",
 			resourceType: "Icongroup",
@@ -53,15 +53,15 @@ require("resourcer")({
 ##### Grunt
 
 ```shell
-npm install resourcer --save-dev
+npm install winresourcer --save-dev
 ```
 
 ```javascript
-grunt.loadNpmTasks('resourcer');
+grunt.loadNpmTasks('winresourcer');
 ...
 grunt.initConfig({
 	...
-	"resourcer": {
+	"winresourcer": {
 		your_target: {
 			operation: "Update", // one of Add, Update, Extract or Delete
 			exeFile: "path/to/your/file.exe",
@@ -128,13 +128,13 @@ When adding or updating a resource the data is retrieved from this file. When ex
 
 ### Contribution
 
-Feel free to [report issues](https://github.com/felicienfrancois/node-resourcer/issues)
-[Pull requests](https://github.com/felicienfrancois/node-resourcer/pulls) are welcome
+Feel free to [report issues](https://github.com/felicienfrancois/node-winresourcer/issues)
+[Pull requests](https://github.com/felicienfrancois/node-winresourcer/pulls) are welcome
 
 
 ### Licence
 
-[GPLv2](https://github.com/felicienfrancois/node-resourcer/blob/master/LICENSE)
+[GPLv2](https://github.com/felicienfrancois/node-winresourcer/blob/master/LICENSE)
 
 
 ### Credits

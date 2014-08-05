@@ -5,7 +5,7 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     // Configuration to be run.
-	resourcer: {
+	winresourcer: {
       default_options: {
         options: {
         }
