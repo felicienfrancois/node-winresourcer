@@ -11,4 +11,4 @@ for (var i=2; i<process.argv.length; i++) {
 		throw new Error("invalid argument format "+process.argv[i]);
 	}
 }
-r.call(ra, options);
+r.call(r, options);
