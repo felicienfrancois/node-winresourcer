@@ -1,0 +1,42 @@
+{
+  "name": "resourcer",
+  "version": "0.9.0",
+  "description": "Node wrapper of Anolis Resourcer (windows executable resource editor)",
+  "main": "lib/Resourcer.js",
+  "bin": {
+    "resourcer": "./lib/Resourcer"
+  },
+  "homepage": "https://github.com/felicienfrancois/node-resourcer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felicienfrancois/node-resourcer.git"
+  },
+  "author": {
+    "name": "Felicien Francois",
+    "email": "felicien@tweakstyle.com",
+    "url": "http://tweakstyle.com"
+  },
+  "bugs": {
+    "url": "https://github.com/felicienfrancois/node-resourcer/issues"
+  },
+  "licenses": [
+    {
+      "type": "Freeware",
+      "url": "https://github.com/felicienfrancois/node-resourcer/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "readmeFilename": "README.md",
+  "keywords": [
+    "resource",
+    "resourcer",
+    "anolis",
+    "editor",
+    "windows",
+    "gruntplugin",
+    "node",
+    "cli"
+  ]
+}
