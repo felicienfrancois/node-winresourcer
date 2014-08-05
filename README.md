@@ -9,14 +9,14 @@ This is a simple node wrapper of [Anolis Resourcer](http://www.anol.is/resourcer
 
 ##### Windows
 
-- .NET framework
+- .NET framework 2.0
 
 
 ##### Linux & Mac OS X
 
 - [wine](http://www.winehq.org/)
-- Require .NET framework (shipped in wine since 1.7.x)
-- Require a X server (Gnome, KDE, ...). You can also use [Xvfb](http://en.wikipedia.org/wiki/Xvfb) on server.
+- Require .NET framework 2.0 (or equivalent)
+- Require a X server (Gnome, KDE, ...). You can also use [Xvfb](http://en.wikipedia.org/wiki/Xvfb)
 
 
 ### Usage examples
