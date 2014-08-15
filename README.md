@@ -106,6 +106,7 @@ Identifies the type of resource to work with. For string and integer identifiers
 | Cursor Directory  | 12       | "Cursor", "Cursordir", "Cursorgroup"  |                                                                                                                                                                                         |
 | Icon Directory    | 14       | "Icon", "Icondir", "Icongroup"        |                                                                                                                                                                                         |
 
+Other type IDs exist but are not listed. Consult MSDN or the [Anolis source](http://anolis.codeplex.com/SourceControl/latest#Anolis.Resources/Core/ResourceIdentifier.cs) for an exhaustive list.
 
 ##### resourceName (Required)
 
