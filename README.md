@@ -80,7 +80,7 @@ grunt.initConfig({
 
 ##### operation (Required)
 
-Value: `Add`, `Delete`, `Extract` or `Delete`
+Value: `Add`, `Update`, `Extract` or `Delete`
 
 The operation to perform
 
