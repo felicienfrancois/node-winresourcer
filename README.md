@@ -29,7 +29,7 @@ npm install -g winresourcer
 ```
 
 ```shell
-winresourcer --operation=Update --exeFile=path/to/your/file.exe --resourceType=Icongroup --resourceName:IDR_MAINFRAME --lang:1033 --resourceFile:path/to/your/resource.ico
+winresourcer --operation=Update --exeFile=path/to/your/file.exe --resourceType=Icongroup --resourceName=IDR_MAINFRAME --lang:1033 --resourceFile=path/to/your/resource.ico
 ```
 
 ##### Node JS
